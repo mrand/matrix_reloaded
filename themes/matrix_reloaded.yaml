@@ -1,0 +1,98 @@
+# Matrix Reloaded
+#
+# Started from the "basic" theme by KTibow / Kendell R
+#    from https://community.home-assistant.io/t/make-ha-different-easier/217698
+#
+# Revisions:
+#    1.0  2021-12-19 mrand: Covers everything I can find useful
+#
+
+
+Matrix_Reloaded_mediacard:
+#
+# The background of the HA media control card doesn't follow themes, and isn't directly definable for on vs. off  :-(
+# Here's some choices (add "theme: matrix_reloaded_mediacard" to the media control card Lovelace config)
+#
+#  primary-color:              "#445f3f"
+#  primary-color:              "#1a231a"
+  primary-color:              "#003300"
+
+#
+Matrix_Reloaded:
+#
+  background-image: center / cover no-repeat url("/local/backgrounds/matrix-code-rain.motion.gif") fixed
+  header-height: 44px
+  primary-color:              "#5a8652" #
+  light-primary-color:        "#658d5d" # Just make this one brighter than the one above
+  primary-text-color:         "#92b492"
+  disabled-text-color:        "#445f3f"
+  secondary-background-color: "#1a231a" # pretty dark
+  primary-background-color:   "#141b14" # mostly backgrounds around cards, but also the "upper" part of a gauge
+  ha-card-background:         "#141b14ab" # same as above, but more translucent
+  unique-color:               "#ff9800" # orange-ish
+  selected-color:     var(--unique-color)
+#
+#
+#  Everything after here references above colors (well, almost)
+#
+  ha-card-border-color:        var(--disabled-text-color)
+  divider-color:               var(--disabled-text-color)
+  ha-label-badge-color:        var(--disabled-text-color)
+  ha-label-badge-label-color:  var(--secondary-background-color)
+  dark-text-color:             var(--primary-text-color)         # header of raw YAML editor for Lovelace
+  dark-background-color:       var(--primary-background-color)   # header of raw YAML editor for Lovelace
+  color-on-error:              var(--secondary-background-color) # text on top of the "error" color (YAML card editor)
+  scrollbar-thumb-color:       var(--primary-color)              # Left Sidebar tab for scrolling
+  success-color:               var(--primary-color)
+  mdc-dialog-box-shadow:       "0px 11px 15px -7px var(--primary-color), 0px 24px 38px 3px var(--primary-color), 0px 9px 46px 8px var(--primary-color)" # adds big shadows on pop-up boxes
+ #
+  mdc-text-field-ink-color:    var(--primary-text-color)      #
+  mdc-text-field-fill-color:   var(--disabled-text-color)     # This is the background of the light colored text fields
+  mdc-select-fill-color:       var(--mdc-text-field-fill-color)
+  ha-card-box-shadow:          'inset 2px 2px 13px 0px var(--secondary-background-color)'  # --secondary-background is more subtle than -border-color
+  card-background-color:       var(--secondary-background-color)
+  text-accent-color:           var(--text-light-primary-color) # text sidebar notification bell
+  text-light-primary-color:    var(--primary-background-color) # text within highlighted areas (buttons and speach cloud when microphone selected)
+  mdc-theme-secondary:         var(--primary-color)            # Background for Plus sign when adding integrations
+  mdc-theme-on-secondary:      var(--text-light-primary-color) # text of button for adding integrations
+  mdc-theme-on-primary:        var(--text-light-primary-color) # text of buttons on dev-tools page and background of SAVE button on raw YAML editor for Lovelace
+  mdc-theme-primary:           var(--light-primary-color)      # background for mdc-raised--button dev-tools; also
+                                                               #     text for the buttons without their own background
+                                                               #     (including the "Refresh" text on toast, which DOES
+                                                               #     have a background against toast-background)
+                                                               #     and some buttons on entity pop-ups in developers tools
+  paper-toast-color:           var(--primary-background-color) # Text of the pop-up at the bottom of the screen (but NOT the button)
+  paper-toast-background-color: var(--unique-color)
+  accent-color:                var(--unique-color)             # used randomly: background on notification dot and for dashboard editor icons, and HACS scroll bar
+  ha-picture-card-text-color:    var(--primary-text-color)
+  ha-picture-icon-button-on-color: var(--ha-picture-card-text-color)  app-header-background-color:      var(--primary-background-color)  # Header on dashboard. Header and footer on phone app
+  app-header-edit-background-color: var(--primary-background-color)  # Header on dashboard editor
+  app-header-edit-text-color:       var(--text-primary-color)
+  state-icon-color:                 var(--primary-text-color)
+  state-icon-active-color:          var(--selected-color)
+  state-icon-unavailable-color:     var(--secondary-background-color)
+  secondary-text-color:        var(--primary-text-color)
+  text-primary-color:          var(--primary-text-color)       # used for some text, and also tab indicator for dashboard and dev panels, and on HACS (for text of update and restart banners)
+
+# slider switches
+#
+  switch-checked-button-color:   var(--light-primary-color)
+  switch-checked-track-color:    var(--light-primary-color)
+  switch-unchecked-button-color: var(--disabled-text-color)
+  switch-unchecked-track-color:  var(--switch-checked-track-color)
+  codemirror-property:           var(--unique-color)
+
+  error-color: "#cc0000"  # adjust slightly for better contrast
+#
+#
+# After this point is stuff for custom cards
+#
+# Custom card(s): flip card
+  dark-primary-color: var(--secondary-background-color)
+
+#
+#
+# Just for reference, example matrix color pallets:
+# https://www.color-name.com/matrix-green.color#color-palettes claims #03A062  (websafe: #009966) - muted/light green
+# https://www.schemecolor.com/matrix-code-green.php :
+# https://colorswall.com/palette/868/
