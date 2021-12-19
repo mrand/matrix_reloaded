@@ -63,16 +63,17 @@ Matrix_Reloaded:
                                                                #     and some buttons on entity pop-ups in developers tools
   paper-toast-color:           var(--primary-background-color) # Text of the pop-up at the bottom of the screen (but NOT the button)
   paper-toast-background-color: var(--unique-color)
-  accent-color:                var(--unique-color)             # used randomly: background on notification dot and for dashboard editor icons, and HACS scroll bar
+  accent-color:                 var(--unique-color)            # used randomly: background on notification dot and for dashboard editor icons, and HACS scroll bar
   ha-picture-card-text-color:    var(--primary-text-color)
-  ha-picture-icon-button-on-color: var(--ha-picture-card-text-color)  app-header-background-color:      var(--primary-background-color)  # Header on dashboard. Header and footer on phone app
+  ha-picture-icon-button-on-color: var(--ha-picture-card-text-color)  
+  app-header-background-color:      var(--primary-background-color)  # Header on dashboard. Header and footer on phone app
   app-header-edit-background-color: var(--primary-background-color)  # Header on dashboard editor
   app-header-edit-text-color:       var(--text-primary-color)
   state-icon-color:                 var(--primary-text-color)
   state-icon-active-color:          var(--selected-color)
   state-icon-unavailable-color:     var(--secondary-background-color)
   secondary-text-color:        var(--primary-text-color)
-  text-primary-color:          var(--primary-text-color)       # used for some text, and also tab indicator for dashboard and dev panels, and on HACS (for text of update and restart banners)
+  text-primary-color:          var(--primary-text-color) # used for some text, and also tab indicator for dashboard and dev panels, and on HACS (for text of update and restart banners)
 
 # slider switches
 #
