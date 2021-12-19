@@ -19,31 +19,31 @@ Installation instructions are at the bottom of this page.
 
 ### Overview
 
-![Theme - Overview](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-overview.gif)
+![Theme - Overview](./docs/theme-overview.gif)
 
 ### Pop-ups
 
-![Theme - Map](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-popup.png)
+![Theme - Pop-ups](./docs/theme-popup.png)
 
 ### Logbook
 
-![Theme - Logbook](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-logbook.png)
+![Theme - Logbook](./docs/theme-logbook.png)
 
 ### History
 
-![Theme - History](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-history.png)
+![Theme - History](./docs/theme-history.png)
 
 ### Developer Tools
 
-![Theme - Developer Tools](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-developer-tools.png)
+![Theme - Developer Tools](./docs/theme-developer-tools.png)
 
-### Configuration
+### Add-on's
 
-![Theme - Configuration](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-configuration.png)
+![Theme - Configuration](./docs/theme-addons.png)
 
 ### Profile
 
-![Theme - Profile](https://raw.githubusercontent.com/home-assistant-community-themes/template/master/docs/theme-profile.png)
+![Theme - Profile](./docs/theme-profile.png)
 
 ## Installation
 
