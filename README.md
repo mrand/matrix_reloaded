@@ -59,6 +59,8 @@ frontend:
   ... # your configuration.
 ```
 
+Then get the theme into your themes directory using one of the following steps.  After that, either call the reload themes service, or restart your HA system.
+
 ### HACS
 
 ** NOT AVAILABLE YET **
