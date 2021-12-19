@@ -12,6 +12,9 @@ config_dir/www/backgrounds/matrix-code-rain.motion.gif
 
 (Where "config_dir" is your Home Assistant config directory.  Some installs this might be /config, and some others /usr/share/hassio/homeassistant)
 
+
+The "themes" directory of this repo contains a matrix-code-rain.motion.gif that you can move to the above location.
+
 Installation instructions are at the bottom of this page.
 **NOT** yet available in HACS
   
