@@ -1,10 +1,12 @@
 # Matrix Reloaded
 #
-# Started from the "basic" theme by KTibow / Kendell R
-#    from https://community.home-assistant.io/t/make-ha-different-easier/217698
+# Looks great with a Matrix "Code Rain" background.  This theme will pick up that background from the following file:
+#   www/backgrounds/matrix-code-rain.motion.gif
+#
+# Started from the "basic" theme by KTibow / Kendell R  (https://community.home-assistant.io/t/make-ha-different-easier/217698)
 #
 # Revisions:
-#    1.0  2021-12-19 mrand: Covers everything I can find useful
+#    1.0  2021-12-19 mrand: Covers everything I can find useful.  Published at https://github.com/mrand/matrix_reloaded/
 #
 
 
