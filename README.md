@@ -1,3 +1,12 @@
+# This repo is ARCHIVED.  Latest is now here:
+https://github.com/home-assistant-community-themes/matrix-reloaded
+
+<br />
+<br />
+<br />
+<br />
+
+
 # Matrix Reloaded Theme
 
 [![Build Status](https://github.com/home-assistant-community-themes/template/workflows/.github/workflows/workflow.yml/badge.svg)](https://github.com/home-assistant-community-themes/template/actions)
